@@ -1,0 +1,29 @@
+{
+  "data_dir": "data",
+  "output_dir": "outputs",
+  "run_name": "diffaug",
+  "epochs": 5,
+  "batch_size": 128,
+  "lr": 0.001,
+  "seed": 42,
+  "num_runs": 3,
+  "seeds": null,
+  "temperature": 20.0,
+  "kd_alpha": 0.5,
+  "adv_weight": 0.5,
+  "pgd_steps": 40,
+  "pgd_step_size": 0.01,
+  "adv_train_epsilon": 0.1,
+  "quick_test": false,
+  "enable_diffusion_aug": true,
+  "diffusion_epochs": 5,
+  "synthetic_per_class": 500,
+  "num_diffusion_steps": 200,
+  "diffusion_lr": 0.0002,
+  "synthetic_cache_path": null,
+  "resolved_seeds": [
+    42,
+    43,
+    44
+  ]
+}

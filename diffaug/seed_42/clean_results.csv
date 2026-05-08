@@ -1,0 +1,8 @@
+run_index,seed,model,clean_accuracy
+1,42,baseline,0.993
+1,42,standard_kd,0.9881
+1,42,adv_training,0.9922
+1,42,adv_kd,0.9899
+1,42,baseline_diffaug,0.9914
+1,42,adv_training_diffaug,0.9921
+1,42,adv_kd_diffaug,0.9912
